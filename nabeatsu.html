@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>js-task</title>
+</head>
+
+<body>
+    <script>
+
+        for (let number = 1; number <= 100; number++) {
+            var num = number;
+            var result = String(num);
+            if (number % 3 === 0) {
+                console.log(number + "!");
+            }
+            else if (result.indexOf('3') != -1) {
+                //  ３を含む
+                console.log(number + "!");
+            }
+            else {
+                console.log(number);
+            }
+        }
+    </script>
+</body>
+
+</html>
